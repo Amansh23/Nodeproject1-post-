@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+
+}
+
+#container{
+  width: 80%;
+ position: absolute;
+ top: 10%;
+ left: 10%;
+}
+
+#hey{
+  width: 40%;
+  height: 10vh;
+  margin-left: 400px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid royalblue;
+}
+#hey h1{
+  font-size: 40px;
+  font-family: gilroy;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#hey #btn{
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hey #btn a{
+  text-decoration: none;
+  font-family: gilroy ultrabold;
+  color: white;
+  font-size: 15px;
+}
+#box{
+  width: 55%;
+  height: 13vh;
+  margin-left: 320px;
+  margin-top: 20px;
+  
+}
+#box .form-floating{
+  width: 100%;
+  height: 100%;
+
+}
+
+.postbtn{
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: rgb(233, 202, 27);
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: gilroy ultrabold;
+  font-size: 18px;
+}
+.postbtn a{
+  text-decoration: none;
+  color: white;
+  
+}
+#cont{
+  width: 55%;
+  margin-left: 320px;
+  margin-top: 100px;
+}
+#box1{
+  width: 100%;
+  height: 53vh;
+  border-radius: 10px;
+  border: 1px solid rgb(94, 92, 92);
+  margin-top: 15px;  
+  font-family: gilroy;
+  border-radius: 10px;
+  border: 1px solid rgb(167, 159, 159);
+  padding: 10px 20px;
+}
+#box1 h3{
+  font-family: gilroy regular;
+  font-size: 17px;
+  font-weight: 600;
+}
+#box1 h4{
+  font-family: gilroy;
+  font-size: 12px;
+  
+  
+}
+#box1 a{
+  text-decoration: none;
+  font-size:15px;
+}
+
+#posts{
+  width: 80%;
+  height: 90vh;
+  border-top: 2px solid royalblue;
+  margin-top:10px;
+  margin-left: 140px;
+}
+#posts #box2{
+  width: 100%;
+  height: 55vh;
+  margin-left: 0px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(94, 92, 92);
+  margin-top: 15px;  
+  font-family: gilroy;
+}
+
+#posts #box2 h3{
+  font-family: gilroy light;
+  font-size: 25px;
+}
+#posts #box2 h4{
+  margin-top: 14px;
+  font-family: gilroy light;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+#posts #box2 a{
+  text-decoration: none;
+  color: royalblue;
+}
+#div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#div #feedbtn{  
+  width: 140px;
+  height: 30px;
+  color: white;
+  background-color: royalblue;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: gilroy ultrabold;
+  font-size: 18px;
+}
+#div #feedbtn a{
+  text-decoration: none;
+  color: white;
+}
+#allposts{
+  width: 200px;
+  font-family: gilroy;
+  font-size: 35px;
+  margin-top: 20px;
+ }
+#head{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#head #profilebtn{
+  
+  width: 140px;
+  height: 30px;
+  color: white;
+  background-color: royalblue;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: gilroy ultrabold;
+  font-size: 18px;
+  
+}
+#head #profilebtn a{
+  text-decoration: none;
+  color: white;
+}
+#posts #box2 .form-floating{
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+#posts #box2 #input{
+  margin-top: 10px;
+  width: 120px;
+  border-radius: 20px;
+  background-color: royalblue;
+  color: white;
+  text-decoration: none;
+  border: none;
+  font-family: gilroy ultrabold;
+}
+#box1 #input{
+  margin-top: 8px;
+  width: 120px;
+  border-radius: 20px;
+  background-color: royalblue;
+  color: white;
+  text-decoration: none;
+  border: none;
+  font-family: gilroy ultrabold;
+}
+#posts #box2 #commentbox{
+  width: 100%;
+  height: 18vh;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 12px 12px;
+  display: inline-block;
+  overflow: auto;
+  white-space: nowrap;
+}
+#posts #box2 #commentbox::-webkit-scrollbar{
+  display:none;
+}
+#posts #box2 #commentbox #commentsection{
+
+  /* background-color: royalblue; */
+  border-radius: 20px;
+  color: black;
+ display: flex;
+ justify-content: flex-start;
+ padding: 0px 10px;
+ font-family: gilroy light;
+ margin-top: 5px;
+}
+#posts #box2 #commentbox  h3{
+  font-family: gilroy regular;
+  font-size: 12px;
+}
+#posts #box2 #commentbox h2{
+  font-family: gilroy regular;
+  font-size: 14px;
+}
+#box1 #commentbox{
+  width: 100%;
+  height: 20vh;
+  margin-top: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 12px 12px;
+  display: inline-block;
+  overflow: auto;
+  white-space: nowrap;
+}
+#box1 #commentbox::-webkit-scrollbar{
+  display:none;
+}
+#box1 #commentbox #commentsection{
+
+  /* background-color: royalblue; */
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+ font-family: gilroy light;
+ margin-top: 10px;
+ font-size: 15px;
+ 
+}
+#box1 #commentbox h2{
+  font-family: gilroy regular;
+  font-size: 15px;
+}
+#box1 #commentbox h3{
+  font-family: gilroy regular;
+  font-size: 12px;
+}
+#box1 #com{
+  margin-top:10px;
+ }
+
+ #dibba{
+   display: flex;
+ }
+ #dibba #photu{
+   width: 70px;
+   height: 65px;
+   background-color: pink;
+   border-radius: 10px;
+   overflow: hidden;
+   position: relative;
+   margin-bottom: 10px;
+ }
+ #dibba #photu  img{
+  position: absolute;
+  z-index: 2;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ #dibba #photu #overlay{
+   position: absolute;
+   z-index: 9;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(128, 128, 128, 0.397);
+   opacity: 0;
+ }
+ #dibba #photu #overlay:hover{
+   opacity: 1;
+   
+ }
+ #upload{
+   display: none;
+ }
+
+ @media(max-width:500px){
+  #head #profilebtn{
+    margin-right: 100px;
+  }
+  #posts #box2{
+    width: 100%;
+    margin-left: 0px;
+  }
+  #hey{
+    margin-left: 21px;
+  }
+  #hey h1{
+    font-size: 20px;
+  }
+  #hey #btn{
+    margin-left: 37px;
+  }
+  #box {
+    margin-left: 20px;
+  }
+  #box1 {
+    margin-left: -300px;
+    height: 55vh;
+  }
+  #posts{
+    margin-left: 22px;
+  }
+  #head{
+    margin-left: 30px;
+  }
+ }
